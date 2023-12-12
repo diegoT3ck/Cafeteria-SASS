@@ -40,13 +40,14 @@ La página "Contacto" incluye un formulario que permite a los usuarios ponerse e
 
 1. **Clonar el Repositorio:**
    ```bash
-   git clone https://github.com/tuusuario/Cafeteria-SASS.git
+   git clone https://github.com/diegoT3ck/Cafeteria-SASS
    ```
 
-2. **Compilar SASS:**
+2. **Instalar Dependencias y Compilar SASS:**
 ```sh
 cd cafeteria-sass
-sass --watch sass/styles.scss:css/styles.css
+npm install
+gulp dev
 ```
 
 3. **Abrir el Proyecto:** Abre el archivo `index.html` en tu navegador favorito.  
